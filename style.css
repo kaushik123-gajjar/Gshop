@@ -1,0 +1,82 @@
+/* upform.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  padding: 40px;
+  margin: 0;
+}
+
+.form-container {
+  background-color: #ffffff;
+  max-width: 600px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #f9f9f9;
+}
+
+input[readonly] {
+  background-color: #f1f1f1;
+  color: #555;
+}
+
+.images {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.images label {
+  width: 45%;
+  font-weight: normal;
+}
+
+.images img {
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  margin-top: 5px;
+}
+
+.update-button,.logout {
+  margin-top: 30px;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.update-button:hover {
+  background-color: #0056b3;
+}
+.msg{
+  color: green;
+
+}
